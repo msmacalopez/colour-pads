@@ -32,3 +32,13 @@ button {
 button.on {
   opacity: 1;
 }
+button.red {
+  column-span: 2;
+  opacity: 1;
+  background: red;
+  width: 90%;
+  height: 10vh;
+
+  display: block; /* makes button respect margin auto */
+  margin: 0 auto;
+}
