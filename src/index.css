@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: black;
+}
+main {
+  margin: auto;
+  width: 80%;
+
+  min-height: 100vh;
+}
+.pad-container {
+  width: 90%;
+  /* border: solid; */
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+button {
+  width: 100%;
+  height: 20vh;
+  border-radius: 10px;
+  border: white solid;
+
+  /* //by default  */
+  opacity: 0.2;
+}
+
+/* button is not need below  */
+button.on {
+  opacity: 1;
+}
